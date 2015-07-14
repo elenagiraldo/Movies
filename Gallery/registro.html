@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registro</title>
+<link href="css.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+<div class="titulo"><h1>REGISTRARSE</h1></div>
+<div id="contenedor">
+<div id="login">
+<form action="validar_registro.php" method="POST">
+<div id="nombreCaja">  
+    <label for="nombre" id="tituloNombre">Nombre</label>
+    <input type="nombre" id="nombre" name="nombre" value=""  placeholder="Name"/><br/>
+</div>
+<div id="correo">  
+    <label for="email" id="tituloEmail">Correo</label>
+    <input type="email" id="email" name="email" value=""  placeholder="Email"/><br/>
+</div>
+<div id="passwordCaja">
+    <label for="password" id="tituloPassword">Contraseña</label>
+    <input type="password" id="password" name="password" value=""  placeholder="Password"/>
+</div>
+<div id="passwordCaja">
+    <label for="password" id="tituloPassword">Contraseña</label>
+    <input type="password" id="password" name="password2" value=""  placeholder="Verifique contraseña"/>
+</div>
+<div id="ciudadCaja">
+    <label for="ciudad" id="tituloCiudad">Ciudad</label>
+    <input type="ciudad" id="ciudad" name="ciudad" value=""  placeholder="City"/>
+</div>
+  <div id="cajaIngresar"> <input type="submit" name="Submit" value="Registrarme"></div>
+</form>
+</div>
+</div>
+</body>
+</html>

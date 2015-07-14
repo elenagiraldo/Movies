@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ingresar</title>
+<link href="css.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body>
+<div class="titulo"><h1>INGRESAR</h1></div>
+<div id="contenedor">
+<div id="login">
+<form action="validar.php" method="POST">
+<div id="correo">  
+    <label for="email" id="tituloEmail">Correo</label>
+    <input type="email" id="email" name="email" value=""  placeholder="Email"/><br/>
+</div>
+<div id="passwordCaja">
+    <label for="password" id="tituloPassword">Contraseña</label>
+    <input type="password" id="password" name="password" value=""  placeholder="Password"/>
+</div>
+<div id="generoCaja">
+    <label for="genero" id="tituloGenero">Genero</label>
+    <input type="genero" id="genero" name="genero" value=""  placeholder="Gender"/>
+</div>
+<div id="protagonistaCaja">
+    <label for="protagonista" id="tituloProtagonista">Actor</label>
+    <input type="protagonista" id="protagonista" name="protagonista" value=""  placeholder="Protagonist"/>
+</div>
+  <div id="cajaEnviar"> <input type="submit" name="Submit" value="Ingresar"></div>
+  <div id="cajaRegistro"><a id="registro" href="registro.html">Registrarme</a></div>
+</form>
+</div>
+</div>
+</body>
+</html>

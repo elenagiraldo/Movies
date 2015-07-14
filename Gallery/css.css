@@ -1,0 +1,367 @@
+
+*{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-decoration:none;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+	}
+	
+html {background-image:url(img/fondo.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;}
+	
+#contenedor{
+	width:1024px;
+	height:650px;
+	height:auto;
+	margin: 0 auto;
+	margin-top:15px;
+	position:relative;
+	
+	}
+	
+.boton{
+	margin-top:20px;
+	width:87px;
+	height:142px;
+	margin-left:5px;
+	margin-bottom:10px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all .3s ;
+	-ms-transition: all .3s ;
+	transition: all .3s ;
+	}
+  
+
+
+.boton:hover{
+	width:107px;
+	height:162px;
+	margin-top:-40px;
+	box-shadow: 0px 0px 10px 1px #7B7B7B;
+	opacity:.8;
+	}
+
+  
+  #contenedor2 {
+	  
+	margin: 0 auto;
+	position: relative;
+    width: 384px;
+    height: 600px;
+    cursor: pointer;
+    font-family: Tahoma, Arial;
+    -webkit-perspective: 600px;
+       -moz-perspective: 600px;
+        -ms-perspective: 600px;
+         -o-perspective: 600px;
+            perspective: 600px;
+  }
+
+ .flip {
+	 margin-top:13px;
+      -webkit-transform-style: preserve-3d;
+         -moz-transform-style: preserve-3d;
+          -ms-transform-style: preserve-3d;
+           -o-transform-style: preserve-3d;
+              transform-style: preserve-3d;
+      -webkit-transition: -webkit-transform .9s;
+         -moz-transition: -moz-transform .9s;
+          -ms-transition: -ms-transform .9s;
+           -o-transition: -o-transform .9s;
+              transition: transform .9s;
+  }
+
+    .flip:hover {
+      -webkit-transform: translateZ(-50px) rotateY(180deg);
+         -moz-transform: translateZ(-50px) rotateY(180deg);
+          -ms-transform: translateZ(-50px) rotateY(180deg);
+           -o-transform: translateZ(-50px) rotateY(180deg);
+              transform: translateZ(-50px) rotateY(180deg);
+    }
+
+     
+
+    .flip img{
+      display: block;
+      position: absolute;
+      top: 0;
+      border-radius: 3px;
+      box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+      -webkit-transform: translateZ(1px);
+         -moz-transform: translateZ(1px);
+          -ms-transform: translateZ(1px);
+           -o-transform: translateZ(1px);
+              transform: translateZ(1px);
+      -webkit-transition: all .9s;
+         -moz-transition: all .9s;
+          -ms-transition: all .9s;
+           -o-transition: all .9s;
+              transition: all .9s;
+
+    }
+
+
+    .flip .informacion {
+	  
+	  font-size: 14px;
+	  color:#FFFFFF;
+      display: block;
+      position: absolute;
+      height: 540px;
+      width: 200px;
+      border-radius: 3px;
+      padding: 30px 30px 30px 30px; 
+ 	background:url(img/fondo.png);
+      -webkit-transform: rotateY(-180deg) ;
+         -moz-transform: rotateY(-180deg) ;
+          -ms-transform: rotateY(-180deg) ;
+           -o-transform: rotateY(-180deg) ;
+              transform: rotateY(-180deg) ;
+      -webkit-transition: all .9s;
+         -moz-transition: all .9s;
+          -ms-transition: all .9s;
+           -o-transition: all .9s;
+              transition: all .9s;
+
+    }
+
+#atras{
+	position:absolute;
+	margin-top:50px;
+	margin-left:360px;
+	padding:10px 30px 10px 50px;
+	background-color:#4A4A4A;
+	color:#FFFFFF;
+	 border-radius: 3px;
+	 font-size:20px;
+	 font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+	
+#atras:hover{
+	background-color:#8A8A8A;
+	}
+	
+.titulo h1{
+	text-align:center;
+	}
+
+h1{
+	
+	color:rgba(255,255,255,1);
+	}
+	
+#tituloEmail{
+	color:rgba(255,255,255,1);
+	font-size:18px;
+	line-height:25px;
+	}
+	
+#tituloPassword{
+	font-size:18px;
+	color:rgba(255,255,255,1);
+	line-height:25px;
+	}
+	
+#tituloGenero{
+	color:rgba(255,255,255,1);
+	font-size:18px;
+	line-height:25px;
+	}
+	
+#tituloProtagonista{
+	font-size:18px;
+	color:rgba(255,255,255,1);
+	line-height:25px;
+	}
+
+	
+#login{
+	width:300px;
+	height:350px;
+	background-color:#4A4A4A;
+	border-radius: 3px;
+	margin: 0 auto;
+	padding:20px 20px 20px 20px;
+	}
+	
+#correo{
+	margin-top:20px;
+	width:270px;
+	height:30px;
+	background-color:#8A8A8A;
+	border-radius: 3px;
+	padding:10px 10px 10px 15px;
+	}
+	
+#passwordCaja{
+	margin-top:20px;
+	width:270px;
+	height:30px;
+	background-color:#8A8A8A;
+	border-radius: 3px;
+	padding:10px 10px 10px 13px;
+	}
+	
+#generoCaja{
+	margin-top:20px;
+	width:270px;
+	height:30px;
+	background-color:#8A8A8A;
+	border-radius: 3px;
+	padding:10px 10px 10px 10px;
+	}
+	
+#protagonistaCaja{
+	margin-top:20px;
+	width:255px;
+	height:30px;
+	background-color:#8A8A8A;
+	border-radius: 3px;
+	padding:10px 10px 10px 25px;
+	}
+	
+#password{
+	border-radius: 3px;
+	height:25px;
+	width:155px;
+	padding:0px 0px 0px 10px;
+	}
+	
+#email{
+	border-radius: 3px;
+	height:25px;
+	width:155px;
+	padding:0px 0px 0px 10px;
+	margin-left:35px;
+	}
+	
+#genero{
+	border-radius: 3px;
+	height:25px;
+	width:155px;
+	padding:0px 0px 0px 10px;
+	margin-left:35px;
+	}
+	
+#protagonista{
+	border-radius: 3px;
+	height:25px;
+	width:155px;
+	padding:0px 0px 0px 10px;
+	margin-left:35px;
+	}
+	
+#cajaEnviar {
+	position:absolute;
+	width:130px;
+	margin-top:20px;
+	border-radius: 3px;
+	}
+	
+#cajaRegistro {
+	position:absolute;
+	width:130px;
+	margin-left:160px;
+	margin-top:20px;
+	border-radius: 3px;
+	float:left;
+	height:40px;
+    background:rgba(153,153,153,1);
+    border:0px;
+    cursor:pointer;
+	}
+	
+#registro{
+	font-size:18px;
+    color:#fff;
+	line-height:40px;
+	padding:15px 0px 0px 15px;
+	}
+	
+input[type="submit"]{
+  width:100%;
+  height:40px;
+  background:rgba(153,153,153,1);
+  border:0px;
+  font-size:18px;
+  color:#fff;
+  cursor:pointer;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover{
+	background-color:rgba(116,128,149,1);
+}
+
+#cajaRegistro:hover {
+	background-color:rgba(116,128,149,1);
+	}
+
+#cajaIngresar{
+	position:absolute;
+	width:340px;
+	margin-left:-20px;
+	margin-top:20px;
+	border-radius: 3px;
+	}
+	
+/*Registro*/
+
+#nombreCaja{
+	width:270px;
+	height:30px;
+	background-color:#8A8A8A;
+	border-radius: 3px;
+	padding:10px 10px 10px 15px;
+	}
+	
+#tituloNombre{
+	color:rgba(255,255,255,1);
+	font-size:18px;
+	line-height:25px;
+	}
+	
+#nombre{
+	border-radius: 3px;
+	height:25px;
+	width:155px;
+	padding:0px 0px 0px 10px;
+	margin-left:28px;
+	}
+	
+#ciudad{
+	border-radius: 3px;
+	height:25px;
+	width:155px;
+	padding:0px 0px 0px 10px;
+	margin-left:23px;
+	}
+	
+#ciudadCaja{
+	margin-top:20px;
+	width:255px;
+	height:30px;
+	background-color:#8A8A8A;
+	border-radius: 3px;
+	padding:10px 10px 10px 25px;
+	}
+	
+#tituloCiudad{
+	font-size:18px;
+	color:rgba(255,255,255,1);
+	line-height:25px;
+	}
+
+
+	
+
+	
+
+	
+
+
