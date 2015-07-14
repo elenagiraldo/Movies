@@ -5,14 +5,15 @@
 	list-style:none;
 	text-decoration:none;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	
 	}
 	
-html {background-image:url(img/fondo.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;}
+html {
+	background-image:url(img/fondo.jpg);
+    	-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    	background-size: cover;
+	}
 	
 #contenedor{
 	width:1024px;
@@ -21,7 +22,6 @@ html {background-image:url(img/fondo.jpg);
 	margin: 0 auto;
 	margin-top:15px;
 	position:relative;
-	
 	}
 	
 .boton{
@@ -47,86 +47,84 @@ html {background-image:url(img/fondo.jpg);
 	}
 
   
-  #contenedor2 {
-	  
+#contenedor2 {
 	margin: 0 auto;
 	position: relative;
-    width: 384px;
-    height: 600px;
-    cursor: pointer;
-    font-family: Tahoma, Arial;
-    -webkit-perspective: 600px;
-       -moz-perspective: 600px;
+    	width: 384px;
+    	height: 600px;
+    	cursor: pointer;
+    	font-family: Tahoma, Arial;
+    	-webkit-perspective: 600px;
+       	-moz-perspective: 600px;
         -ms-perspective: 600px;
-         -o-perspective: 600px;
-            perspective: 600px;
+        -o-perspective: 600px;
+        perspective: 600px;
   }
 
  .flip {
-	 margin-top:13px;
-      -webkit-transform-style: preserve-3d;
-         -moz-transform-style: preserve-3d;
-          -ms-transform-style: preserve-3d;
-           -o-transform-style: preserve-3d;
-              transform-style: preserve-3d;
-      -webkit-transition: -webkit-transform .9s;
-         -moz-transition: -moz-transform .9s;
-          -ms-transition: -ms-transform .9s;
-           -o-transition: -o-transform .9s;
-              transition: transform .9s;
+	margin-top:13px;
+      	-webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        -o-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+      	-webkit-transition: -webkit-transform .9s;
+        -moz-transition: -moz-transform .9s;
+        -ms-transition: -ms-transform .9s;
+        -o-transition: -o-transform .9s;
+        transition: transform .9s;
   }
 
     .flip:hover {
-      -webkit-transform: translateZ(-50px) rotateY(180deg);
-         -moz-transform: translateZ(-50px) rotateY(180deg);
-          -ms-transform: translateZ(-50px) rotateY(180deg);
-           -o-transform: translateZ(-50px) rotateY(180deg);
-              transform: translateZ(-50px) rotateY(180deg);
+      	-webkit-transform: translateZ(-50px) rotateY(180deg);
+        -moz-transform: translateZ(-50px) rotateY(180deg);
+        -ms-transform: translateZ(-50px) rotateY(180deg);
+        -o-transform: translateZ(-50px) rotateY(180deg);
+        transform: translateZ(-50px) rotateY(180deg);
     }
 
      
 
     .flip img{
-      display: block;
-      position: absolute;
-      top: 0;
-      border-radius: 3px;
-      box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
-      -webkit-transform: translateZ(1px);
-         -moz-transform: translateZ(1px);
-          -ms-transform: translateZ(1px);
-           -o-transform: translateZ(1px);
-              transform: translateZ(1px);
-      -webkit-transition: all .9s;
-         -moz-transition: all .9s;
-          -ms-transition: all .9s;
-           -o-transition: all .9s;
-              transition: all .9s;
+      	display: block;
+	position: absolute;
+      	top: 0;
+      	border-radius: 3px;
+      	box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+      	-webkit-transform: translateZ(1px);
+        -moz-transform: translateZ(1px);
+        -ms-transform: translateZ(1px);
+        -o-transform: translateZ(1px);
+        transform: translateZ(1px);
+      	-webkit-transition: all .9s;
+        -moz-transition: all .9s;
+        -ms-transition: all .9s;
+        -o-transition: all .9s;
+        transition: all .9s;
 
     }
 
 
     .flip .informacion {
-	  
-	  font-size: 14px;
-	  color:#FFFFFF;
-      display: block;
-      position: absolute;
-      height: 540px;
-      width: 200px;
-      border-radius: 3px;
-      padding: 30px 30px 30px 30px; 
+	font-size: 14px;
+	color:#FFFFFF;
+      	display: block;
+      	position: absolute;
+      	height: 540px;
+      	width: 200px;
+      	border-radius: 3px;
+      	padding: 30px 30px 30px 30px; 
  	background:url(img/fondo.png);
-      -webkit-transform: rotateY(-180deg) ;
-         -moz-transform: rotateY(-180deg) ;
-          -ms-transform: rotateY(-180deg) ;
-           -o-transform: rotateY(-180deg) ;
-              transform: rotateY(-180deg) ;
-      -webkit-transition: all .9s;
-         -moz-transition: all .9s;
-          -ms-transition: all .9s;
-           -o-transition: all .9s;
-              transition: all .9s;
+      	-webkit-transform: rotateY(-180deg) ;
+        -moz-transform: rotateY(-180deg) ;
+        -ms-transform: rotateY(-180deg) ;
+        -o-transform: rotateY(-180deg) ;
+        transform: rotateY(-180deg) ;
+      	-webkit-transition: all .9s;
+        -moz-transition: all .9s;
+        -ms-transition: all .9s;
+        -o-transition: all .9s;
+        transition: all .9s;
 
     }
 
@@ -137,9 +135,9 @@ html {background-image:url(img/fondo.jpg);
 	padding:10px 30px 10px 50px;
 	background-color:#4A4A4A;
 	color:#FFFFFF;
-	 border-radius: 3px;
-	 font-size:20px;
-	 font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	border-radius: 3px;
+	font-size:20px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 	}
 	
 #atras:hover{
@@ -151,7 +149,6 @@ html {background-image:url(img/fondo.jpg);
 	}
 
 h1{
-	
 	color:rgba(255,255,255,1);
 	}
 	
@@ -271,27 +268,27 @@ h1{
 	border-radius: 3px;
 	float:left;
 	height:40px;
-    background:rgba(153,153,153,1);
-    border:0px;
-    cursor:pointer;
+    	background:rgba(153,153,153,1);
+    	border:0px;
+    	cursor:pointer;
 	}
 	
 #registro{
 	font-size:18px;
-    color:#fff;
+    	color:#fff;
 	line-height:40px;
 	padding:15px 0px 0px 15px;
 	}
 	
 input[type="submit"]{
-  width:100%;
-  height:40px;
-  background:rgba(153,153,153,1);
-  border:0px;
-  font-size:18px;
-  color:#fff;
-  cursor:pointer;
-  border-radius: 3px;
+  	width:100%;
+  	height:40px;
+  	background:rgba(153,153,153,1);
+  	border:0px;
+  	font-size:18px;
+  	color:#fff;
+  	cursor:pointer;
+  	border-radius: 3px;
 }
 
 input[type="submit"]:hover{
